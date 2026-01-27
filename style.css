@@ -1,0 +1,119 @@
+.gradient-background {
+  background: linear-gradient(
+    263deg,
+    #6f4aa1,
+    #48ee75,
+    #2bb2fb,
+    #eae909,
+    #973948
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 25s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-footer {
+  background: linear-gradient(
+    263deg,
+    #6f4aa1,
+    #48ee75,
+    #2bb2fb,
+    #eae909,
+    #973948
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 25s ease infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+}
+
+#top {
+  min-height: 400px;
+  padding-bottom: 0;
+}
+
+#info {
+  margin-top: 0;
+}
+
+#info p {
+  margin-bottom: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.middle-container {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.middle-container ul {
+  list-style-type: none;
+  padding-top: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+#contact {
+  position: relative;
+  padding-bottom: 140px;
+}
+
+#contact::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  pointer-events: none;
+}
+
+#info h2 {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
